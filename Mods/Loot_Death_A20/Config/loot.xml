@@ -1,0 +1,62 @@
+<lootcontainers>
+
+	<append xpath="/lootcontainers">
+		<lootcontainer id="220" count="0,2" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+			<!-- 衣服、子弹、书、属性装备 A19版本加入-->
+			<item group="groupCloset"/>
+			<item group="groupAmmoRegular" loot_prob_template="Low"/>
+			<item group="booksAllScaled" loot_prob_template="Low"/>
+			<item group="dyes" loot_prob_template="veryLow"/>
+			<item name="meleeToolPaintTool" loot_prob_template="veryLow"/>
+			<!-- 一些头戴装饰 -->
+			<item name="armorSantaHat" mods="dye" mod_chance="0"/>
+			<item name="apparelSkullCap" mods="dye" mod_chance="0"/>
+			<item name="apparelPressboyCap" mods="dye" mod_chance="0"/>
+			<item name="apparelBallCap" mods="dye" mod_chance="0"/>
+			<item name="apparelCowboyHat" mods="dye" mod_chance="0"/>
+			<item name="modArmorSkullCap" loot_prob_template="low"/>
+			<item name="modArmorPressboyCap" loot_prob_template="low"/>
+			<item name="modArmorBallCap" loot_prob_template="low"/>
+			<item name="modArmorCowboyHat" loot_prob_template="low"/>
+			<item name="armorClothHat"/>
+			<item name="armorFootballHelmet"/>
+			<!-- 一些穿戴衣服 -->
+			<item group="groupApparelCoats"/>
+			<item group="groupApparelHats"/>
+			<item group="groupApparelFaceCover"/>
+			<item group="groupApparelShirtLong"/>
+			<item group="groupApparelTankTopTShirt"/>
+			<item group="groupApparelPants"/>
+			<item group="groupApparelBootsShoes"/>
+			<item group="groupApparelSuit" loot_prob_template="low"/>
+			<item name="armorFootballHelmet" loot_prob_template="low"/>
+			<item name="resourceSewingKit" count="1,2" loot_prob_template="med"/>
+			<item name="armorSteelSetParts" count="1,2" loot_prob_template="medLow"/>
+			<item name="armorMilitarySetParts" count="1,2" loot_prob_template="medLow"/>
+			<!-- 添加食物掉落 A20版本更新后加入-->
+			<item name="drinkJarCoffeeSchematic"/>
+			<item name="drinkJarGoldenRodTeaSchematic"/>
+			<item name="drinkJarRedTeaSchematic"/>
+			<item name="foodBaconAndEggsSchematic"/>
+			<item name="foodBakedPotatoSchematic"/>
+			<item name="foodBoiledMeatSchematic"/>
+			<item name="foodCornBreadSchematic"/>
+			<item name="foodCornOnTheCobSchematic"/>
+			<item name="foodGrilledMeatSchematic"/>
+			<item name="plantedAloe1Schematic"/>
+			<item name="plantedBlueberry1Schematic"/>
+			<item name="plantedChrysanthemum1Schematic"/>
+			<item name="plantedCoffee1Schematic"/>
+			<item name="plantedCorn1Schematic"/>
+			<item name="plantedCotton1Schematic"/>
+			<item name="plantedGoldenrod1Schematic"/>
+			<item name="plantedHop1Schematic"/>
+			<item name="plantedMushroom1Schematic"/>
+			<item name="plantedPotato1Schematic"/>
+			<item name="plantedPumpkin1Schematic"/>
+			<item name="plantedYucca1Schematic"/>
+		</lootcontainer>
+	</append>
+
+
+</lootcontainers>

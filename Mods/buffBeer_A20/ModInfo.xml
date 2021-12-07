@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="buffBeer" />
+        <Description value="啤酒效果增强去处模糊" />
+        <Author value="feiyi" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

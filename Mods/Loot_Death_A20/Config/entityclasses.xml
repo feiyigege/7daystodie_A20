@@ -1,0 +1,18 @@
+<entity_classes>
+
+<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+	<property name="LootListOnDeath" value="220" />
+</append>
+<!-- 尸体展示时间从30s改为60s -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">60</set>
+<!-- 尸体的耐久从1000降为500 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">500</set>
+<!-- 稍稍增加战利品的出现几率 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LootDropProb']/@value">.038</set>
+<!-- 击杀丧尸的基础经验从400改为450 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='ExperienceGain']/@value">450</set>
+<!-- 丧尸夜晚的攻击频率更加快 -->
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AttackTimeoutNight']/@value">1</set>
+
+</entity_classes>
+

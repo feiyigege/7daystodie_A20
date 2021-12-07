@@ -1,0 +1,29 @@
+<configs>
+	<!-- 移除原效果 -->
+	<remove xpath="/buffs/buff[@name='buffBeer']" />
+	<!-- 添加新效果 去除模糊 增加时长 -->
+	<append xpath="/buffs">
+		<buff name="buffBeer" name_key="buffDrunk1Name" description_key="buffDrunk1Desc" tooltip_key="buffDrunk1Tooltip" icon="ui_game_symbol_beer">
+			<damage_type value="disease"/>
+			<stack_type value="replace"/>
+			<duration value="480"/>
+			<effect_group>
+				<passive_effect name="EntityDamage" operation="perc_add" value="3">
+					<requirement name="HoldingItemHasTags" tags="fists" />
+				</passive_effect>
+
+				<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5">
+					<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+				</passive_effect>
+				<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.35">
+					<requirement name="HasBuff" buff="buffHealWaterMax"/>
+				</passive_effect>
+
+				<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned1"/>
+			</effect_group>
+		</buff>
+	</append>
+</configs>
+
+
+

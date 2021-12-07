@@ -1,0 +1,8 @@
+<configs>
+
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">10.5,15</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">7.5,15</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">13.5,18</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">16.5,24</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">25,33</set>
+</configs>

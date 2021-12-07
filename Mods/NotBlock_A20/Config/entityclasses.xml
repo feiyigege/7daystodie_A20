@@ -1,0 +1,10 @@
+﻿<configs>
+
+	<!-- 移除原先效果 默认掉落背包 -->
+	<remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='DropInventoryBlock']" />
+	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+		<!-- 修改成空就表示什么都不掉落 -->
+		<property name="DropInventoryBlock" value=""/>
+	</append>
+
+</configs>

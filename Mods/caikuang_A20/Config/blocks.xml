@@ -1,0 +1,47 @@
+﻿<configs>
+	
+	<!-- 圆石资源 -->
+	<set xpath="/blocks/block[@name='rockResource']/property[@name='Map.Color']/@value">12,7,248</set>
+	<remove xpath="/blocks/block[@name='rockResource']/drop" />
+	<append xpath="/blocks/block[@name='rockResource']">
+			<!-- 铁 -->
+			<drop event="Harvest" name="resourceScrapIron" count="105" tag="oreWoodHarvest"/>
+			<!-- 煤 -->
+			<drop event="Harvest" name="resourceCoal" count="50" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="50" tag="coalHarvest"/>
+			<!-- 硝酸钾 -->
+			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="50" tag="oreWoodHarvest"/>
+			<!-- 铅 -->
+			<drop event="Harvest" name="resourceScrapLead" count="50" tag="oreWoodHarvest"/>
+			<!-- 黄铜 -->
+			<drop event="Harvest" name="resourceScrapBrass" count="12" tag="oreWoodHarvest"/>
+			<!-- 石油 -->
+			<drop event="Harvest" name="resourceOilShale" count="50" tag="oreWoodHarvest"/>
+			<!-- 石头 -->
+			<drop event="Harvest" name="resourceRockSmall" count="22" tag="oreWoodHarvest"/>
+			<drop event="Destroy" count="0"/>
+	</append>
+
+	<!-- 石头 -->
+	<set xpath="/blocks/block[@name='terrStone']/property[@name='Map.Color']/@value">151,13,190</set>
+	<remove xpath="/blocks/block[@name='terrStone']/drop" />
+	<append xpath="/blocks/block[@name='terrStone']">
+			<!-- 铁 -->
+			<drop event="Harvest" name="resourceScrapIron" count="105" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="16" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="16" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapLead" count="12" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceScrapBrass" count="12" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceRockSmall" count="55" tag="oreWoodHarvest"/>
+
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="resourceRockSmall" count="44" prob="0.23" stick_chance="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
+
+	</append>
+	
+	
+	
+	
+	
+</configs>

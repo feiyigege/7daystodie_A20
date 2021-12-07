@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="NotBlock_A20" />
+		<Description value="死亡不掉落任何东西" />
+		<Author value="feiyi" />
+		<Version value="1.0" />
+		<Website value="QQ1457704113" />
+	</ModInfo>
+</xml>

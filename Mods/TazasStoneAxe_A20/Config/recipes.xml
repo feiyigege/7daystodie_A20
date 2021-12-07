@@ -1,0 +1,12 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="meleeToolRepairT0TazasStoneAxe" count="1" tags="perkMiner69r">
+			<ingredient name="meleeToolRepairT0StoneAxe" count="1"/>
+			<ingredient name="resourceRockSmall" count="200"/>
+			<ingredient name="resourceYuccaFibers" count="2"/>
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
+	</append>
+
+
+</configs>
